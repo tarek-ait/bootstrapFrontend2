@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+     
+        background-image: linear-gradient(rgb(199, 185, 255), #7486fc);
+        height: 100%;     
+}
+.navbar-toggler{
+    border: none;
+    background-color: none;
+    outline: none;
+}
+.card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.card .card-body i{
+    margin-bottom: 1rem;
+    padding: 7px;
+    font-size: 35px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(0, 106, 255);
+}
+
+.card .card-body h5{
+    font-size: 30px;
+}
+.card:hover{
+    box-shadow: none;
+}
+
+
+footer{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+footer p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+}
+
+.nav-tabs{
+    border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-weight: 500;
+}
+
+.nav-link{
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-link p{
+    transition: all 0.3s ease;
+}
+
+.nav-link p:hover {
+  color:  #007bff; 
+}
